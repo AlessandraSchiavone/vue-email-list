@@ -16,8 +16,8 @@
     <body>
         <div id="root">
             <template v-if="emails.length == 10 ">
-                <ul v-for="(email,index) in emails" >
-                    <li> {{ index + 1 }})  {{ email }}</li>
+                <ul>
+                    <li v-for="(email,index) in emails"> {{ index + 1 }})  {{ email }}</li>
                 </ul>
             </template>
         </div>
