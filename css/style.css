@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+#root{
+    font-family: 'Homemade Apple', cursive;
+    background-color: rgb(251, 240, 224);
+}
+ul{
+    padding:5px;
+}
+ul > li {
+    width:50%;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    margin:20px;
+    list-style:none;
+}
